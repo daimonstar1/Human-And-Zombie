@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Tower Defense1", "Zombie Tower Defense1.csproj", "{059D9A1C-F27F-F473-4DE7-13FC7A1F9FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Tower Defense1.Plugins", "Zombie Tower Defense1.Plugins.csproj", "{DD828551-6A22-2B1C-91CB-A5C7000F31ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Tower Defense1.Editor", "Zombie Tower Defense1.Editor.csproj", "{0FB8943C-1271-40C3-8219-51C246008723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Tower Defense1.Editor.Plugins", "Zombie Tower Defense1.Editor.Plugins.csproj", "{FEF87257-FFCD-9F1A-97F4-0EA273B94453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{059D9A1C-F27F-F473-4DE7-13FC7A1F9FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059D9A1C-F27F-F473-4DE7-13FC7A1F9FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059D9A1C-F27F-F473-4DE7-13FC7A1F9FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059D9A1C-F27F-F473-4DE7-13FC7A1F9FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD828551-6A22-2B1C-91CB-A5C7000F31ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD828551-6A22-2B1C-91CB-A5C7000F31ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD828551-6A22-2B1C-91CB-A5C7000F31ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD828551-6A22-2B1C-91CB-A5C7000F31ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB8943C-1271-40C3-8219-51C246008723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB8943C-1271-40C3-8219-51C246008723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB8943C-1271-40C3-8219-51C246008723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB8943C-1271-40C3-8219-51C246008723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF87257-FFCD-9F1A-97F4-0EA273B94453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF87257-FFCD-9F1A-97F4-0EA273B94453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF87257-FFCD-9F1A-97F4-0EA273B94453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF87257-FFCD-9F1A-97F4-0EA273B94453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

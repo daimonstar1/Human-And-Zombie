@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{F589E8C1-31F7-7E4F-BBE8-FBB78A3AE23A}") = "Zombie Tower Defense - Zombie Rising", "Assembly-CSharp-firstpass.csproj", "{85F6928A-8EE8-FF15-20C1-48BD6CBE6FC4}"
+EndProject
+Project("{F589E8C1-31F7-7E4F-BBE8-FBB78A3AE23A}") = "Zombie Tower Defense - Zombie Rising", "Assembly-CSharp.csproj", "{DD9AE638-74C9-CF0C-E55E-5465B02CBECA}"
+EndProject
+Project("{F589E8C1-31F7-7E4F-BBE8-FBB78A3AE23A}") = "Zombie Tower Defense - Zombie Rising", "Assembly-CSharp-Editor-firstpass.csproj", "{7DCEC1A8-2DF2-8035-6E5E-4002C77BEEBA}"
+EndProject
+Project("{F589E8C1-31F7-7E4F-BBE8-FBB78A3AE23A}") = "Zombie Tower Defense - Zombie Rising", "Assembly-CSharp-Editor.csproj", "{66332D15-1B65-F401-29BD-A36C63498B2C}"
+EndProject
+Project("{F589E8C1-31F7-7E4F-BBE8-FBB78A3AE23A}") = "Zombie Tower Defense - Zombie Rising", "Assembly-UnityScript-firstpass.unityproj", "{152A7DA5-D123-8388-638F-247F1B3EEA6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85F6928A-8EE8-FF15-20C1-48BD6CBE6FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F6928A-8EE8-FF15-20C1-48BD6CBE6FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F6928A-8EE8-FF15-20C1-48BD6CBE6FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F6928A-8EE8-FF15-20C1-48BD6CBE6FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9AE638-74C9-CF0C-E55E-5465B02CBECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9AE638-74C9-CF0C-E55E-5465B02CBECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9AE638-74C9-CF0C-E55E-5465B02CBECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9AE638-74C9-CF0C-E55E-5465B02CBECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCEC1A8-2DF2-8035-6E5E-4002C77BEEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCEC1A8-2DF2-8035-6E5E-4002C77BEEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCEC1A8-2DF2-8035-6E5E-4002C77BEEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCEC1A8-2DF2-8035-6E5E-4002C77BEEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66332D15-1B65-F401-29BD-A36C63498B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66332D15-1B65-F401-29BD-A36C63498B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66332D15-1B65-F401-29BD-A36C63498B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66332D15-1B65-F401-29BD-A36C63498B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152A7DA5-D123-8388-638F-247F1B3EEA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152A7DA5-D123-8388-638F-247F1B3EEA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152A7DA5-D123-8388-638F-247F1B3EEA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152A7DA5-D123-8388-638F-247F1B3EEA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5F67E757-7B98-9A9A-2D69-3A22A375AA9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity2017/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity2017/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Examples\Scripts\ActRotatorExample.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Examples\Scripts\ActTesterGui.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredPerformanceTests.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Common\Constants.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Detectors\ActDetectorBase.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Detectors\InjectionDetector.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Detectors\ObscuredCheatingDetector.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Detectors\SpeedHackDetector.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Detectors\WallHackDetector.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredBool.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredByte.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredChar.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDecimal.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDouble.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredFloat.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredInt.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredLong.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredPrefs.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredQuaternion.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredSByte.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredShort.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredString.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUInt.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredULong.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUShort.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector2.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector3.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Scripts\Utils\xxHash.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AppEventName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AppEventParameterName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CallbackManager.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\JsBridge.cs" />
+     <Compile Include="Assets\Facebook\Scripts\ComponentFactory.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Constants.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookBase.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\MethodArguments.cs" />
+     <Compile Include="Assets\Facebook\Scripts\MethodCall.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\FBJavaClass.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Facebook\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppInviteResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppLinkResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppReqeustResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GraphResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GroupCreateResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GroupJoinResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppInviteResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppLinkResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppRequestResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGraphResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGroupCreateResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGroupJoinResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IInternalResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ILoginResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IPayResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IShareResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\LoginResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\PayResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ResultBase.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ShareResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\FacebookLogger.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\IFacebookLogger.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\Utilities.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\MobileAds.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IMobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragResize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollView.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggle.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\EventDelegate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIText.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyBinding.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyReference.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\RealTime.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIRect.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenHeight.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenWidth.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIColorPicker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInputOnGUI.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteData.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\dialog1.cs" />
+     <Compile Include="Assets\Scripts\GameController\AudioPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\BoostEXPController.cs" />
+     <Compile Include="Assets\Scripts\GameController\BuildPosition.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\Bullet01.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\Bullet03Upgrade.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\Bullet04.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\Bullet06.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\Bullet07.cs" />
+     <Compile Include="Assets\Scripts\GameController\BulletController\BulletController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy01.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy02.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy03.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy04.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy05.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy06.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy07.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy08.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy09.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy09_Poison.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\Enemy10.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\EnemyController\EnemyDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\ScientistController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit01.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit02.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit03.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit04.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit05.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit06.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit07.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\Unit08.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\UnitController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\UnitDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\CharacterController\UnitController\UnitSelect.cs" />
+     <Compile Include="Assets\Scripts\GameController\EndingController.cs" />
+     <Compile Include="Assets\Scripts\GameController\GameplayController\GameplayController.cs" />
+     <Compile Include="Assets\Scripts\GameController\GameplayController\GoldDrop.cs" />
+     <Compile Include="Assets\Scripts\GameController\GameplayController\LaneController.cs" />
+     <Compile Include="Assets\Scripts\GameController\GameplayController\MoveObject.cs" />
+     <Compile Include="Assets\Scripts\GameController\GameplayController\RewardController.cs" />
+     <Compile Include="Assets\Scripts\GameController\Items\ItemDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\LevelController\LevelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\LevelController\LevelDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\LevelController\ScientistShowUpData.cs" />
+     <Compile Include="Assets\Scripts\GameController\ProductController\FreeRewardController.cs" />
+     <Compile Include="Assets\Scripts\GameController\ProductController\ProductDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\QuestController\QuestDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\QuestController\QuestItemController.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\Skill_01.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\Skill_02.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\Skill_03.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\Skill_03_Ariplane.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\Skill_03_Rocket.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\SkillController.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\SkillDataController.cs" />
+     <Compile Include="Assets\Scripts\GameController\SkillsController\SkillSelect.cs" />
+     <Compile Include="Assets\Scripts\GameController\TutorialController\TutorialController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\BackgroundController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\BuyBoostEXPDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\BuyChangeGameSpeedDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\DialogController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\EnemyInfoDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\ExitGameDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\FillEnergyDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\FreeRewardDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\GotRewardDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\LevelCompleteDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\LevelSelectDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\NewSkillUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\NewUnitUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\PauseGameDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\RatingDialog.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Dialog\UnitLevelExp.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\HomePanel\MapPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LabPanel\LabPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LabPanel\UnitInLabController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LevelButton.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LibraryPanel\EnemyCard.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LibraryPanel\LibraryPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\LibraryPanel\SpineEnemyCard.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\QuestPanel\QuestPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\ShopPanel\ProductController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\ShopPanel\ShopPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\SkillPanelController\SkillPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\SkillPanelController\UpgradeSkillButton.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\Transition.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UIController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UIControllerFirstMenu.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UIControllerGameplay.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UIControllerMenu.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UnitPanel\UnitPanelController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UnitPanel\UnitSelectButtonController.cs" />
+     <Compile Include="Assets\Scripts\GameController\UIController\UnitPanel\UpgradeUnitButton.cs" />
+     <Compile Include="Assets\Scripts\MasterController\AdController\AdmobControl.cs" />
+     <Compile Include="Assets\Scripts\MasterController\AdController\Singleton.cs" />
+     <Compile Include="Assets\Scripts\MasterController\AntiCheatController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\AntiIAPHacking.cs" />
+     <Compile Include="Assets\Scripts\MasterController\AudioController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\DebugStreamer.cs" />
+     <Compile Include="Assets\Scripts\MasterController\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Scripts\MasterController\EffectController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\FrameAnimation.cs" />
+     <Compile Include="Assets\Scripts\MasterController\IAPController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\Master.cs" />
+     <Compile Include="Assets\Scripts\MasterController\PushNotificationController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\SocialController\FacebookController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\StatsController.cs" />
+     <Compile Include="Assets\Scripts\MasterController\TouchController.cs" />
+     <Compile Include="Assets\spine-csharp\Animation.cs" />
+     <Compile Include="Assets\spine-csharp\AnimationState.cs" />
+     <Compile Include="Assets\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\spine-csharp\Atlas.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\AttachmentLoader.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\PathAttachment.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\spine-csharp\Attachments\VertexAttachment.cs" />
+     <Compile Include="Assets\spine-csharp\BlendMode.cs" />
+     <Compile Include="Assets\spine-csharp\Bone.cs" />
+     <Compile Include="Assets\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\spine-csharp\Event.cs" />
+     <Compile Include="Assets\spine-csharp\EventData.cs" />
+     <Compile Include="Assets\spine-csharp\ExposedList.cs" />
+     <Compile Include="Assets\spine-csharp\IConstraint.cs" />
+     <Compile Include="Assets\spine-csharp\IkConstraint.cs" />
+     <Compile Include="Assets\spine-csharp\IkConstraintData.cs" />
+     <Compile Include="Assets\spine-csharp\IUpdatable.cs" />
+     <Compile Include="Assets\spine-csharp\Json.cs" />
+     <Compile Include="Assets\spine-csharp\MathUtils.cs" />
+     <Compile Include="Assets\spine-csharp\PathConstraint.cs" />
+     <Compile Include="Assets\spine-csharp\PathConstraintData.cs" />
+     <Compile Include="Assets\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\spine-csharp\SkeletonBinary.cs" />
+     <Compile Include="Assets\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\spine-csharp\SkeletonJson.cs" />
+     <Compile Include="Assets\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\spine-csharp\Slot.cs" />
+     <Compile Include="Assets\spine-csharp\SlotData.cs" />
+     <Compile Include="Assets\spine-csharp\TransformConstraint.cs" />
+     <Compile Include="Assets\spine-csharp\TransformConstraintData.cs" />
+     <Compile Include="Assets\spine-unity\Asset Types\AtlasAsset.cs" />
+     <Compile Include="Assets\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\spine-unity\BoneFollower.cs" />
+     <Compile Include="Assets\spine-unity\ISkeletonAnimation.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\Arrays\ArraysMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\Arrays\ArraysSimpleMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\Arrays\ArraysSubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\Arrays\ArraysSubmeshSetMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\DoubleBufferedMesh.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\ISimpleMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\ISubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\spine-unity\Mesh Generation\SpineMesh.cs" />
+     <Compile Include="Assets\spine-unity\Modules\AttachmentTools\AtlasRegionAttacher.cs" />
+     <Compile Include="Assets\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
+     <Compile Include="Assets\spine-unity\Modules\AttachmentTools\SpriteAttacher.cs" />
+     <Compile Include="Assets\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\spine-unity\Modules\CustomSkin\CustomSkin.cs" />
+     <Compile Include="Assets\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
+     <Compile Include="Assets\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonAnimator.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\spine-unity\SpineAttributes.cs" />
+     <None Include="Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\Shaders\WallHackTexture.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.9.6d.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_05\Unit_05.atlas.txt" />
+     <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_04\Unit_04.atlas.txt" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\Changelog.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_01\Unit_01.atlas.txt" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_07\Unit_07.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpriteLighting.cginc" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_01\Normal\Unit_01.atlas.txt" />
+     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Resources\Data\Characters\UnitData.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_01\Unit_01.atlas.txt" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.88.0.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_02\Unit_02.atlas.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_03\Enemy_03.atlas.txt" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
+     <None Include="Assets\Resources\Data\Quests\QuestData.xml" />
+     <None Include="Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_06\Unit_06.atlas.txt" />
+     <None Include="Assets\Resources\Data\Skills\SkillData.xml" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_09\Enemy_09.atlas.txt" />
+     <None Include="Assets\Resources\Data\Levels\LevelData.xml" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_05\Enemy_05.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_02\Enemy_02.atlas.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_07\Enemy_07.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Resources\Data\Products\ProductsData.xml" />
+     <None Include="Assets\Textures\Home\background.atlas.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_01\Upgrade\Unit_01.atlas.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_08\Unit_08.atlas.txt" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Resources\Data\Characters\EnemyData.xml" />
+     <None Include="Assets\spine-unity\Modules\Shaders\SkeletonTint.shader" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\spine-unity\Modules\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Scientist\Scientist.atlas.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_06\Enemy_06.atlas.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_08\Enemy_08.atlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+     <None Include="Assets\Resources\Textures\Characters\Units\Unit_03\Unit_03.atlas.txt" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\spine-unity\Modules\SkeletonGraphic\Shaders\SkeletonGraphic.shader" />
+     <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\Facebook\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+     <None Include="Assets\Resources\Textures\Characters\Enemies\Enemy_04\Enemy_04.atlas.txt" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\API.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Resources\Textures\hand\skeleton.atlas.txt" />
+     <None Include="Assets\Epic Toon FX\ETFX Readme.txt" />
+     <None Include="Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
+     <None Include="Assets\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Unity2017/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>D:/GameSpace/Zombie Tower Defense2/Zombie Tower Defense1/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/laptopleson/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/laptopleson/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/laptopleson/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{8EC8BC99-1714-E8C7-FE19-94F4EFE047B7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
